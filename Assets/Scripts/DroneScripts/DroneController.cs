@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace DroneControl
 {
-    [RequireComponent(typeof(DroneInput))]
+    [RequireComponent(typeof(TransmitterInput))]
     public class DroneController : BaseRigidbody
     {
         #region Variables
@@ -15,7 +15,7 @@ namespace DroneControl
         [SerializeField] private float yawPower = 4f;
         [SerializeField] private float lerpSpeed = 2f;
 
-        private DroneInput input;
+        private TransmitterInput input;
         private List<IEngine> engines = new List<IEngine>();
 
         private float finalPitch;
@@ -27,7 +27,7 @@ namespace DroneControl
         #region Main Methods
         void Start()
         {
-            input = GetComponent<DroneInput>();
+            input = GetComponent<TransmitterInput>();
             engines = GetComponentsInChildren<IEngine>().ToList<IEngine>();
         }
         #endregion

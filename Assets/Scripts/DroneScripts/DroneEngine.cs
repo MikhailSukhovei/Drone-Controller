@@ -22,7 +22,7 @@ namespace DroneControl
             throw new System.NotImplementedException();
         }
 
-        public void UpdateEngine(Rigidbody rb, DroneInput input)
+        public void UpdateEngine(Rigidbody rb, TransmitterInput input)
         {
             // Debug.Log("Running Engine: " + gameObject.name);
             Vector3 upVec = transform.up;

@@ -94,7 +94,7 @@
                 {
                     "name": "up",
                     "id": "0b8491af-5734-4356-8887-f87ff0d283e7",
-                    "path": "<Gamepad>/rightStick/up",
+                    "path": "<Joystick>/stick/up",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -105,7 +105,7 @@
                 {
                     "name": "down",
                     "id": "9a7035c3-65a2-49f1-9c0a-80f421577ba5",
-                    "path": "<Gamepad>/rightStick/down",
+                    "path": "<Joystick>/stick/down",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -116,7 +116,7 @@
                 {
                     "name": "left",
                     "id": "7fec3fa3-0674-4b77-b602-e575d6650a14",
-                    "path": "<Gamepad>/rightStick/left",
+                    "path": "<Joystick>/stick/left",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -127,7 +127,7 @@
                 {
                     "name": "right",
                     "id": "e8941cae-c021-432e-861c-f70c4acb160d",
-                    "path": "<Gamepad>/rightStick/right",
+                    "path": "<Joystick>/stick/right",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -204,7 +204,7 @@
                 {
                     "name": "up",
                     "id": "42d47ef4-4c40-4d04-8c02-222caa5b144f",
-                    "path": "<Gamepad>/leftStick/up",
+                    "path": "<Joystick>/z",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -244,6 +244,134 @@
                     "action": "LeftStick",
                     "isComposite": false,
                     "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "Transmitter",
+            "id": "945d05fa-cb9a-431b-a7e7-96929d77b6f9",
+            "actions": [
+                {
+                    "name": "Rx",
+                    "type": "PassThrough",
+                    "id": "afc9cf08-b6ce-4759-815b-c8a6f7e743f1",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Ry",
+                    "type": "PassThrough",
+                    "id": "c15dd0c4-a35d-4d0c-a1ce-6ad41068c5cf",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Rz",
+                    "type": "PassThrough",
+                    "id": "49fdb520-35be-4e43-b9cf-7c95386fb705",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "StickX",
+                    "type": "PassThrough",
+                    "id": "3b9cd344-235f-4d48-873d-570ed49e5a20",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "StickY",
+                    "type": "PassThrough",
+                    "id": "fc395e7f-0af4-415b-b6c7-9ded603fbd37",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Z",
+                    "type": "PassThrough",
+                    "id": "87cdbcf0-b96b-4a5f-bafc-3a882616549b",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2f81441e-9ae1-4f26-87bf-c9ab84af1fe8",
+                    "path": "<Joystick>/rx",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rx",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0f30302f-6958-456b-9650-4bc84f9f362b",
+                    "path": "<Joystick>/ry",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Ry",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "01f69015-d05f-4866-91cf-31da6761eada",
+                    "path": "<Joystick>/rz",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rz",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b0af7364-053d-4e06-9b17-73ff1d181ff4",
+                    "path": "<Joystick>/stick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StickX",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "769cdec4-adb8-4aea-ad33-8277bdc0fc84",
+                    "path": "<Joystick>/stick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StickY",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cb4bf48c-eff5-4738-bae2-89f2fe93432d",
+                    "path": "<Joystick>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Z",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }

@@ -7,6 +7,6 @@ namespace DroneControl
     public interface IEngine
     {
         void InitEngine();
-        void UpdateEngine(Rigidbody rb, DroneInput input);
+        void UpdateEngine(Rigidbody rb, TransmitterInput input);
     }
 }
